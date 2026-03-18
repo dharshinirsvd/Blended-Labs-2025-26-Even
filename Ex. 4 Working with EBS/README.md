@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: SAI KRIPA SK 
+* **Register Number**: 212224040284
+* **Date of Submission**: 18.03.26
 
 ---
 
@@ -80,11 +80,15 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Create a new Amazon EBS volume and ensure it is in the same Availability Zone as the EC2 instance.
+
+2. Attach the EBS volume to the EC2 instance and connect to the instance using EC2 Instance Connect.
+
+3. Create a file system (ext3), mount the volume, and store data in it.
+
+4. Take a snapshot of the EBS volume for backup and delete the original file.
+
+5. Restore the snapshot by creating a new volume, attach it, mount it, and verify the data.
 
 ---
 
@@ -92,19 +96,19 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (249)" src="https://github.com/user-attachments/assets/3609c1ec-bcb8-4b5e-bc4a-00cc5b0fe3c0" />
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (250)" src="https://github.com/user-attachments/assets/01645dfb-2d35-4f87-9afa-4dfd11ac4a2b" />
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (251)" src="https://github.com/user-attachments/assets/bf2f1cbf-65fc-4109-9569-36b81f614c12" />
 
 ---
 
