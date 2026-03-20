@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: SAI KRIPA SK
+* **Register Number**: 212224040284
+* **Date of Submission**: 20.03.26
 
 ---
 
@@ -84,33 +84,33 @@ Test the database server by connecting to it locally or remotely and performing 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Create a DB Security Group allowing MySQL (3306) access from the web server.
 
----
+2. Create a DB Subnet Group with subnets in two Availability Zones.
+
+3. Launch an RDS MySQL Multi-AZ database with required credentials.
+
+4. Connect the web application to the database using the RDS endpoint.
+
+5. Test the app by performing add, edit, delete operations stored in the database
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
-
----
+<img width="1920" height="1200" alt="Screenshot (201)" src="https://github.com/user-attachments/assets/309db5c9-73c4-4b4c-b727-c81923d8720d" />
+<img width="1920" height="1200" alt="Screenshot (202)" src="https://github.com/user-attachments/assets/62eb30d7-28cb-44cd-8c03-daa35ebebbd5" />
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
-
----
+<img width="1920" height="1200" alt="Screenshot (203)" src="https://github.com/user-attachments/assets/b03acd9a-3531-4ee3-aa29-895c3def03f0" />
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (204)" src="https://github.com/user-attachments/assets/8049be3d-d6b2-4dc2-8844-7e8bf8428db3" />
+<img width="1920" height="1200" alt="Screenshot (205)" src="https://github.com/user-attachments/assets/e72ca885-a805-45e9-9cb8-5aa4d3ffcaf9" />
 
----
 
 ## Result
 
