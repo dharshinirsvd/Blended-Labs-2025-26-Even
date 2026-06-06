@@ -70,6 +70,6 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 
 ## Author
-**Name:** SAI KRIPA SK 212224040284
+**Name:** DHARSHINI R 212224220023
 **Course:** Introduction to Cloud Computing  
 
